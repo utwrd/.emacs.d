@@ -1,4 +1,4 @@
-﻿; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
+; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 ;; ------------------------------------------------------------------------
 ;; @ load-path
 
@@ -53,6 +53,9 @@
 
 ;; 複数ウィンドウを禁止する
 (setq ns-pop-up-frames nil)
+
+;;テーマ
+(load-theme 'misterioso t)
 
 ;; ウィンドウを透明にする
 ;; アクティブウィンドウ／非アクティブウィンドウ（alphaの値で透明度を指定）
