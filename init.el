@@ -96,7 +96,7 @@
 
 ;; C-kで行全体を削除する
 (setq kill-whole-line t)
-
+(global-set-key (kbd "C-k") 'kill-whole-line)
 ;;; dired設定
 (require 'dired-x)
 
