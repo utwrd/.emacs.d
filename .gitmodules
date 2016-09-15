@@ -4,3 +4,6 @@
 [submodule "site-lisp/web-mode"]
 	path = site-lisp/web-mode
 	url = https://github.com/utwrd/web-mode.git
+[submodule "site-lisp/undo-tree"]
+	path = site-lisp/undo-tree
+	url = https://gist.github.com/utwrd/11ceaf9acef7cafbd07e14b4f3694259.git
