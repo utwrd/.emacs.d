@@ -59,7 +59,7 @@
 
 ;; ウィンドウを透明にする
 ;; アクティブウィンドウ／非アクティブウィンドウ（alphaの値で透明度を指定）
-(add-to-list 'default-frame-alist '(alpha . (0.95 0.95)))
+;;(add-to-list 'default-frame-alist '(alpha . (0 0)))
 
 ;; メニューバーを消す
 (menu-bar-mode -1)
