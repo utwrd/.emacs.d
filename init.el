@@ -95,8 +95,9 @@
 
 
 ;; C-kで行全体を削除する
-(setq kill-whole-line t)
+;;(setq kill-whole-line t)
 (global-set-key (kbd "C-k") 'kill-whole-line)
+
 ;;; dired設定
 (require 'dired-x)
 
@@ -155,3 +156,15 @@
   (setq web-mode-tag-auto-close-style 2)
 )
 (add-hook 'web-mode-hook 'web-mode-hook)
+
+(require 'package)
+
+;; If you want to use latest version
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+
+;;
+;; auto-complete
+;; need to package-install!!
+(global-auto-complete-mode) 
